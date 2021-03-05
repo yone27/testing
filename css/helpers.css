@@ -1,0 +1,44 @@
+.hidden {
+    display: none;
+}
+
+.d-block {
+    width: 100%;
+    display: block;
+}
+
+.font-green {
+    color: green;
+}
+
+.btn-semi-rounded {
+    border-radius: 25px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.full-heigh {
+    height: 100%;
+}
+
+.font-lg {
+    font-size: 3em;
+}
+
+.center-height {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+label.required:after {
+    content: '*';
+    color: var(--red);
+    margin-left: 5px;
+}
